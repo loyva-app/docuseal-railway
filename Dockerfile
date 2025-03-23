@@ -1,4 +1,4 @@
-FROM docuseal/docuseal
+FROM public.ecr.aws/q1q9g1b3/ds-ee
 
 ARG PGPASSWORD
 ARG PGHOST
@@ -7,3 +7,4 @@ ARG PGDATABASE
 ARG PGUSER
 
 ENV DATABASE_URL=postgresql://$PGUSER:$PGPASSWORD@$PGHOST:$PGPORT/$PGDATABASE
+ENV HOST=docuseal.loyva.app
