@@ -1,4 +1,5 @@
-FROM public.ecr.aws/q1q9g1b3/ds-ee
+# FROM public.ecr.aws/q1q9g1b3/ds-ee
+FROM ee.docuseal.com/rhxpmdwo/ds-ee
 
 ARG PGPASSWORD
 ARG PGHOST
