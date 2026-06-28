@@ -9,3 +9,4 @@ ARG PGUSER
 
 ENV DATABASE_URL=postgresql://$PGUSER:$PGPASSWORD@$PGHOST:$PGPORT/$PGDATABASE
 ENV HOST=docuseal.loyva.app
+ENV GOTENBERG_URL=http://gotenberg.railway.internal:3000
